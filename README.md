@@ -9,8 +9,8 @@ The Car Lease Management System is a Spring Boot application designed to manage 
 - Lease creation, termination, and history tracking
 - Administrative functions for managing users, cars, and leases
 
-Running the Application Using Docker (.tar File)
-You can access the application by loading the provided .tar file into Docker and running the container. Follow these steps:
+## Running the Application Using Docker (.tar File)
+- You can access the application by loading the provided .tar file into Docker and running the container. Follow these steps:
 
 1. Load the Docker Image
    sh
