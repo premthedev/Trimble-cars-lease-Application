@@ -1,0 +1,14 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "com/trimble/carlease/controller"
+  },
+  {
+    "caller": "com/trimble/carlease/controller",
+    "callee": "com/trimble/carlease/service"
+  },
+  {
+    "caller": "com/trimble/carlease/service",
+    "callee": "Database"
+  }
+]

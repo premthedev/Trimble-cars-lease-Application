@@ -1,0 +1,4 @@
+[
+  "com/trimble/carlease/controller/UserController",
+  "com/trimble/carlease/service/UserService"
+]

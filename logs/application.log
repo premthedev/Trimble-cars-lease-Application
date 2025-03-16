@@ -1,0 +1,178 @@
+2025-03-16 10:41:27 - Starting TrimpleCarsApplicationTests using Java 17.0.14 with PID 29372 (started by Prem in C:\Users\Prem\IdeaProjects\Trimple-cars)
+2025-03-16 10:41:27 - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 10:41:27 - No active profile set, falling back to 1 default profile: "default"
+2025-03-16 10:41:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-16 10:41:28 - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2025-03-16 10:41:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-16 10:41:29 - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-16 10:41:29 - HHH000026: Second-level cache disabled
+2025-03-16 10:41:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-16 10:41:29 - HikariPool-1 - Starting...
+2025-03-16 10:41:29 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:trimblecars user=SA
+2025-03-16 10:41:29 - HikariPool-1 - Start completed.
+2025-03-16 10:41:29 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-16 10:41:29 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-16 10:41:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-16 10:41:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:41:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 10:41:32 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:trimblecars'
+2025-03-16 10:41:32 - Started TrimpleCarsApplicationTests in 5.542 seconds (process running for 11.938)
+2025-03-16 10:41:33 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:33 - Initializing Servlet ''
+2025-03-16 10:41:33 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching lease history for owner with ID: 4dbbefe0-ef1c-4671-85c1-4b3c872f0dd8
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching all users
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching all cars
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching status for car with ID: a6b5c0b8-68f2-4f11-a8cb-ebb250df8832
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching all leases
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - No users found
+2025-03-16 10:41:34 - Removing user with ID: 8f7742cb-c8da-4b6a-8f47-abe68c03e5e1
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:34 - Fetching lease history for customer with ID: 831264b0-6657-473c-b647-19d833e23652
+2025-03-16 10:41:34 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:34 - Initializing Servlet ''
+2025-03-16 10:41:34 - Completed initialization in 0 ms
+2025-03-16 10:41:35 - Registering car with details: CarRequest(ownerId=2663bd7f-ffda-4bf4-8d7d-c1b4b21584dc, make=Toyota, model=Camry, year=2020)
+2025-03-16 10:41:35 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:35 - Initializing Servlet ''
+2025-03-16 10:41:35 - Completed initialization in 0 ms
+2025-03-16 10:41:35 - No cars found
+2025-03-16 10:41:35 - Removing car with ID: 9af01b06-1863-4117-80db-fe363e88f639
+2025-03-16 10:41:35 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:35 - Initializing Servlet ''
+2025-03-16 10:41:35 - Completed initialization in 0 ms
+2025-03-16 10:41:35 - Starting lease with details: LeaseRequest(carId=2663bd7f-ffda-4bf4-8d7d-c1b4b21584dc, customerId=2663bd7f-ffda-4bf4-8d7d-c1b4b21584dc)
+2025-03-16 10:41:35 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:35 - Initializing Servlet ''
+2025-03-16 10:41:35 - Completed initialization in 0 ms
+2025-03-16 10:41:35 - Fetching available cars
+2025-03-16 10:41:35 - Initializing Spring TestDispatcherServlet ''
+2025-03-16 10:41:35 - Initializing Servlet ''
+2025-03-16 10:41:35 - Completed initialization in 0 ms
+2025-03-16 10:41:35 - Registering car with details: CarRequest(ownerId=2663bd7f-ffda-4bf4-8d7d-c1b4b21584dc, make=Toyota, model=Camry, year=2020)
+2025-03-16 10:41:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:41:35 - HikariPool-1 - Shutdown initiated...
+2025-03-16 10:41:35 - HikariPool-1 - Shutdown completed.
+2025-03-16 10:46:44 - Starting TrimbleCarsApplication using Java 17.0.14 with PID 10696 (C:\Users\Prem\IdeaProjects\Trimple-cars\build\classes\java\main started by Prem in C:\Users\Prem\IdeaProjects\Trimple-cars)
+2025-03-16 10:46:44 - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 10:46:44 - No active profile set, falling back to 1 default profile: "default"
+2025-03-16 10:46:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-16 10:46:45 - Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2025-03-16 10:46:45 - Tomcat initialized with port 8080 (http)
+2025-03-16 10:46:45 - Starting service [Tomcat]
+2025-03-16 10:46:45 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-16 10:46:45 - Initializing Spring embedded WebApplicationContext
+2025-03-16 10:46:45 - Root WebApplicationContext: initialization completed in 871 ms
+2025-03-16 10:46:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-16 10:46:46 - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-16 10:46:46 - HHH000026: Second-level cache disabled
+2025-03-16 10:46:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-16 10:46:46 - HikariPool-1 - Starting...
+2025-03-16 10:46:46 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:trimblecars user=SA
+2025-03-16 10:46:46 - HikariPool-1 - Start completed.
+2025-03-16 10:46:46 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-16 10:46:46 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-16 10:46:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-16 10:46:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:46:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 10:46:47 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:trimblecars'
+2025-03-16 10:46:47 - Tomcat started on port 8080 (http) with context path '/'
+2025-03-16 10:46:47 - Started TrimbleCarsApplication in 3.02 seconds (process running for 3.24)
+2025-03-16 10:47:20 - Starting TrimpleCarsApplicationTests using Java 17.0.14 with PID 17580 (started by Prem in C:\Users\Prem\IdeaProjects\Trimple-cars)
+2025-03-16 10:47:20 - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 10:47:20 - No active profile set, falling back to 1 default profile: "default"
+2025-03-16 10:47:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-16 10:47:21 - Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2025-03-16 10:47:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-16 10:47:22 - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-16 10:47:22 - HHH000026: Second-level cache disabled
+2025-03-16 10:47:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-16 10:47:22 - HikariPool-1 - Starting...
+2025-03-16 10:47:22 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:trimblecars user=SA
+2025-03-16 10:47:22 - HikariPool-1 - Start completed.
+2025-03-16 10:47:22 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-16 10:47:22 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-16 10:47:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-16 10:47:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:47:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 10:47:24 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:trimblecars'
+2025-03-16 10:47:24 - Started TrimpleCarsApplicationTests in 3.786 seconds (process running for 10.151)
+2025-03-16 10:47:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:47:24 - HikariPool-1 - Shutdown initiated...
+2025-03-16 10:47:24 - HikariPool-1 - Shutdown completed.
+2025-03-16 10:50:02 - Starting TrimbleCarsApplication using Java 17.0.14 with PID 15876 (C:\Users\Prem\IdeaProjects\Trimple-cars\build\classes\java\main started by Prem in C:\Users\Prem\IdeaProjects\Trimple-cars)
+2025-03-16 10:50:02 - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-16 10:50:02 - No active profile set, falling back to 1 default profile: "default"
+2025-03-16 10:50:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-16 10:50:03 - Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2025-03-16 10:50:03 - Tomcat initialized with port 8080 (http)
+2025-03-16 10:50:03 - Starting service [Tomcat]
+2025-03-16 10:50:03 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-16 10:50:03 - Initializing Spring embedded WebApplicationContext
+2025-03-16 10:50:03 - Root WebApplicationContext: initialization completed in 830 ms
+2025-03-16 10:50:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-16 10:50:03 - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-16 10:50:03 - HHH000026: Second-level cache disabled
+2025-03-16 10:50:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-16 10:50:03 - HikariPool-1 - Starting...
+2025-03-16 10:50:04 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:trimblecars user=SA
+2025-03-16 10:50:04 - HikariPool-1 - Start completed.
+2025-03-16 10:50:04 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-16 10:50:04 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-16 10:50:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-16 10:50:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-16 10:50:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-16 10:50:05 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:trimblecars'
+2025-03-16 10:50:05 - Tomcat started on port 8080 (http) with context path '/'
+2025-03-16 10:50:05 - Started TrimbleCarsApplication in 2.969 seconds (process running for 3.405)
+2025-03-16 10:50:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-16 10:50:19 - Initializing Servlet 'dispatcherServlet'
+2025-03-16 10:50:19 - Completed initialization in 0 ms
+2025-03-16 10:50:19 - Registering user with details: UserRequest(name=prem, email=pr1EE@example.com, role=OWNER)
+2025-03-16 10:50:58 - Registering car with details: CarRequest(ownerId=c9ae6d1d-4452-4009-825d-d2c6db68ec35, make=Toyota, model=innova, year=2023)
+2025-03-16 10:50:58 - Registering user with details: UserRequest(name=prem, email=prem@gmail.com, role=OWNER)

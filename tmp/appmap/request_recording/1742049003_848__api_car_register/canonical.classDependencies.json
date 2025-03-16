@@ -1,0 +1,14 @@
+[
+  {
+    "caller": "POST /api/car/register",
+    "callee": "com/trimble"
+  },
+  {
+    "caller": "com/trimble",
+    "callee": "insert into cars (make,model,owner_id,status,manufacture_year,id) values (?,?,?,?,?,?)"
+  },
+  {
+    "caller": "com/trimble",
+    "callee": "select u1_0.id,u1_0.email,u1_0.name,u1_0.role from users u1_0 where u1_0.id=?"
+  }
+]

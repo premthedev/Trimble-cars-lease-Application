@@ -1,0 +1,10 @@
+[
+  {
+    "caller": "POST /api/user/register",
+    "callee": "com/trimble"
+  },
+  {
+    "caller": "com/trimble",
+    "callee": "insert into users (email,name,role,id) values (?,?,?,?)"
+  }
+]
