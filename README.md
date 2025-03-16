@@ -9,6 +9,25 @@ The Car Lease Management System is a Spring Boot application designed to manage 
 - Lease creation, termination, and history tracking
 - Administrative functions for managing users, cars, and leases
 
+Running the Application Using Docker (.tar File)
+You can access the application by loading the provided .tar file into Docker and running the container. Follow these steps:
+
+1. Load the Docker Image
+   sh
+   Copy
+   Edit
+   docker load -i car-lease-app.tar
+2. Run the Container
+   sh
+   Copy
+   Edit
+   docker run -p 8080:8080 --name car-lease-container car-lease-app
+3. Access the Application
+   API Base URL: http://localhost:8080
+   H2 Database Console: http://localhost:8080/h2-console
+   JDBC URL: jdbc:h2:mem:trimblecars
+   Username: sa
+   Password: (leave empty)
 ## Technologies Used
 - Java
 - Spring Boot
