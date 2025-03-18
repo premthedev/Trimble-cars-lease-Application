@@ -30,7 +30,7 @@ public class LeaseService {
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
         List<Lease> activeLeases = leaseRepository.findByCustomer(customer);
-        if (activeLeases.size() > 2) {
+        if (activeLeases.size() > 1) {
             throw new RuntimeException("User already has an active lease");
         }
 
